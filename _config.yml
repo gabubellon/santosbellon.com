@@ -1,1 +1,24 @@
-theme: jekyll-theme-minimal
+title: Vem ai
+description: Vem ai
+
+#### LAYOUT OPTIONS #####
+
+# Half layout
+half_side: center
+
+# Full layout
+full_text_position: center # left, right or center
+
+
+
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
