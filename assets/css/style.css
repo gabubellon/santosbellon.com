@@ -386,6 +386,10 @@ dd {
 .full__image {
   background-size: cover;
   background-position: 50%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 800px) {
   .full__image {
