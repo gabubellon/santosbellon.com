@@ -79,7 +79,7 @@ a{
 	position: relative;
 	display: block;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-    text-align: left;
+    text-align: center;
 }
 .container > header h1{
 	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -87,7 +87,7 @@ a{
 	line-height: 35px;
 	position: relative;
 	font-weight: 400;
-	color: #fff;
+	color: #78c300;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
     padding: 0px 0px 5px 0px;
 }
@@ -141,7 +141,7 @@ p.codrops-demos a,
 p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
     display: inline-block;
-	border: 1px solid #6d0019;
+	border: 1px solid #00666d;
 	padding: 4px 10px 3px;
 	font-size: 13px;
 	line-height: 18px;
@@ -154,20 +154,31 @@ p.codrops-demos a.current-demo:hover{
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
-	background: #a90329;
-	background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#a90329), color-stop(44%,#8f0222), color-stop(100%,#6d0019));
-	background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
-	background: -o-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
-	background: -ms-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
-	background: linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%);
+	background: #030ea9;
+	/* background: -moz-linear-gradient(top, #1fa903 0%, #8f0222 44%, #6d0019 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1fa903), color-stop(44%,#1fa903), color-stop(100%,#1fa903));
+	background: -webkit-linear-gradient(top, #1fa903 0%,#8f0222 44%,#1fa903 100%);
+	background: -o-linear-gradient(top, #1fa903 0%,#8f0222 44%,#1fa903 100%);
+	background: -ms-linear-gradient(top, #1fa903 0%,#8f0222 44%,#1fa903 100%);
+	background: linear-gradient(top, #1fa903 0%,#1fa903 44%,#1fa903 100%); */
 }
 p.codrops-demos a:hover{
-	background: #6d0019;
+	/* background: #6d0019;
+	 */
+	 	background-image:     linear-gradient(
+	   to right, 
+	   #E7484F,
+	   #F68B1D, 
+	   #FCED00,
+	   #009E4F,
+	   #00AAC3,
+	   #732982
+	 );
+   animation:slidebg 2s linear infinite;
 }
 p.codrops-demos a:active{
 	background: #6d0019;
-	background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
+	/* background: -moz-linear-gradient(top, #6d0019 0%, #8f0222 56%, #a90329 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#6d0019), color-stop(56%,#8f0222), color-stop(100%,#a90329));
 	background: -webkit-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
 	background: -o-linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
@@ -175,7 +186,7 @@ p.codrops-demos a:active{
 	background: linear-gradient(top, #6d0019 0%,#8f0222 56%,#a90329 100%);
 	-webkit-box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
 	-moz-box-shadow:0px 1px 1px rgba(255,255,255,0.9);
-	box-shadow: 0px 1px 1px rgba(255,255,255,0.9);
+	box-shadow: 0px 1px 1px rgba(255,255,255,0.9); */
 }
 p.codrops-demos a.current-demo,
 p.codrops-demos a.current-demo:hover{
@@ -193,3 +204,26 @@ p.codrops-demos a.current-demo:hover{
 		left: auto;
 	}
 }
+
+.rainbow{
+	background-color: #343A40;
+	border-radius: 4px;  
+	color: #fff;
+	cursor: pointer;
+	padding: 8px 16px;
+	
+  }
+
+.rainbow:hover{
+	background-image:     linear-gradient(
+	   to right, 
+	   #E7484F,
+	   #F68B1D, 
+	   #FCED00,
+	   #009E4F,
+	   #00AAC3,
+	   #732982
+	 );
+   animation:slidebg 2s linear infinite;
+ }
+
