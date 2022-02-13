@@ -299,8 +299,8 @@ p.codrops-demos a.current-demo:hover {
 .fechar {
   position: absolute;
   width: 30px;
-  right: 50%;
-  top: 82%; 
+  right: 35%;
+  top: 0%; 
   text-align: center;
   line-height: 30px;
   margin-top: 5px;

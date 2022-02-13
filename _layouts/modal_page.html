@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}" class="no-js">
+
+  {%- include head.html -%}
+
+  <body id="page">
+    {%- include background_carrousel.html -%}
+    {%- include header.html -%}
+    <div class="container">
+      {{ content }}
+    </div>
+    <!-- <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        
+      </div>
+    </main> -->
+  </body>
+
+</html>

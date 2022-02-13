@@ -1,0 +1,14 @@
+<div class="container">
+    <header>
+        <h1>{{ site.index_title }}</h1>
+        <h2>{{ site.modal_title }}</h2>
+        <p class="codrops-demos" >
+            {% for item in site.modals %}
+                {%- if item.home -%}
+                    <a href="#{{ item.link }}">{{ item.label }}</a>
+                {%- endif -%}
+            {% endfor  %}
+        </p>
+        {%- include modals.html -%}
+    </header>
+</div>

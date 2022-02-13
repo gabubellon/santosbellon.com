@@ -1,0 +1,13 @@
+{% for item in site.modals %}
+    <div id="{{ item.link }}" class="modal">
+        <p class="codrops-demos" >
+            {%- if item.target -%}
+                <a href="#{{ item.target.link }}">{{ item.target.label }}</a><br>
+            {% endif  %}
+            <img src="{{ item.img  | relative_url }}" alt="Sério ?" width="500" height="500">
+            <h1>{{ item.text }}</h1>
+        </p>
+        {%- include close.html -%}
+    </div>
+{% endfor  %}
+    
